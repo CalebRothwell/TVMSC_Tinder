@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    background-image: url("_DSC5043.jpg");
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+    background-color: #6495ed;
+}
+h2 {
+  color: red;
+  margin-right: 10px;
+  background-color: #e0ffff;
+}
+p {
+  color: green;
+  margin-center: 20px;
+  text-indent: 50px;
+}
