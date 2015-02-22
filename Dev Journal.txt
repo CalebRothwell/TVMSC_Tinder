@@ -1,0 +1,11 @@
+Feb 20 2015 
+
+This week  I finished learning bootstrap. It was pretty straight forward. Then I moved on to PHP. I downloaded PHP to my computer PHP is much more complicated. I am still having trouble with it, so I will continue to learn it. I drew out a site map that you can see if you want (its hand drawn). I also did some research on the actual Tinder site because I want to make it pretty similar to it. And now  I am going to submit this as a .txt file so I don't get a 5 out of 10 again. 
+
+Feb 13 2015 
+
+This week I added another practice html site that I made less boring. (mywebpage.html). Then   I learned the basics of CSS (css.html) and Bootsrap 3 (index.html). Now I am ready to start making my actual webpage. Bootstrap bower was downloaded so i can use those themes. I also started working on an API. I should have this finished by the end of the weekend. 
+
+Feb 6 2015
+
+Set up my github repository and started my project. 
