@@ -1,3 +1,7 @@
+Feb 27 2015
+
+This week I did some research about how my site was actually going to work. I downloaded php.myadmin and started to create my data base of users. In this I will store their username, password and other information that I will have them fill out when they enter my site. These will be stored as objects in a string array for each user. After I learned that I started working on actual webpage. I hope to have a working server and a “cool” login page that is somewhat functional but the 1st deliverable date, but thats a lot. 
+
 Feb 20 2015 
 
 This week  I finished learning bootstrap. It was pretty straight forward. Then I moved on to PHP. I downloaded PHP to my computer PHP is much more complicated. I am still having trouble with it, so I will continue to learn it. I drew out a site map that you can see if you want (its hand drawn). I also did some research on the actual Tinder site because I want to make it pretty similar to it. And now  I am going to submit this as a .txt file so I don't get a 5 out of 10 again. 
