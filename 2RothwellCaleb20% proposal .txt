@@ -1,0 +1,32 @@
+January 30th 2015 Caleb Rothwell AP Computer Science Period 2
+
+Proposal: Tinder for TVMSC
+
+A “nerd dating app”
+
+Needs and Opportunities 
+The problem that I noticed was that these nerds sure do have a tough time getting ladies or gentlemen. What if the love of your live goes in the afternoon but you attend the morning session? This problem can be fixed and even eliminated with this easy to use program 
+
+Audience / Clients / Users 
+Everyone student at TVMSC will be able to use this product maybe even teachers. This will be accessed by either computer or via smart phone app. 
+
+Timeline 
+
+February 1: Basic idea and plan for making this program and Github account 
+March 1: set up server and mamp and a data base 
+April 1:
+May 1: the first version of this program ready for testing and debugging 
+
+Product
+At the end of the year I hope to have  a mostly functional app that people can use. This will probably not be released but its will funny and “fixes a problem”
+
+Reality Check
+ I will need some smart phone app making program if I want to go that route or maybe just use a .jar file. And of course I’ll need a Smart Alex for help. 
+
+Conclusion
+Yay! I am fired up about this because its going to be funny and relatable and it will solve a REAL WORLD PROBLEM. I’m glad you approve. 
+ 
+
+
+
+ 
