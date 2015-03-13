@@ -1,3 +1,7 @@
+Friday March 13 2015
+
+This week I did a lot on my project. I got my localhost running with phpmyadmin and set up a database for my website and created users. Then I created the actual sign in page of my website. Look at index.php and login.php. These work just fine but they are pretty boring. I will be focusing on getting my actual site running and working before I work on making it pretty. 
+
 Feb 27 2015
 
 This week I did some research about how my site was actually going to work. I downloaded php.myadmin and started to create my data base of users. In this I will store their username, password and other information that I will have them fill out when they enter my site. These will be stored as objects in a string array for each user. After I learned that I started working on actual webpage. I hope to have a working server and a “cool” login page that is somewhat functional but the 1st deliverable date, but thats a lot. 
