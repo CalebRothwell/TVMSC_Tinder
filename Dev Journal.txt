@@ -1,3 +1,6 @@
+Friday March 30 2015 
+This week I was working on getting familiar with phpmyadmin. I created users and more data bases. I was also working on fixing my login page to work properly. I will be working on my website a lot during this break. 
+
 Friday March 13 2015
 
 This week I did a lot on my project. I got my localhost running with phpmyadmin and set up a database for my website and created users. Then I created the actual sign in page of my website. Look at index.php and login.php. These work just fine but they are pretty boring. I will be focusing on getting my actual site running and working before I work on making it pretty. 
