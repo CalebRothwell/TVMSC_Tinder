@@ -14,7 +14,7 @@ Timeline
 
 February 1: Basic idea and plan for making this program and Github account 
 March 1: set up server and mamp and a data base 
-April 1:
+April 1: login page up and working as well as the site homepage and create account page up
 May 1: the first version of this program ready for testing and debugging 
 
 Product

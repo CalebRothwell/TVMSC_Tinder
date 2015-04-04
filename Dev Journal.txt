@@ -1,3 +1,6 @@
+Friday April 3 2015
+Second Deliverable! Yay! For this deliverable I got about 8/10 I think. I was able to get my host up and running and that was one one the biggest challenges of my project so far. I have also made my homepage, index, dao, and started on the profile page. This is about as far as I wanted to get at this point in time. 
+
 Friday March 30 2015 
 This week I was working on getting familiar with phpmyadmin. I created users and more data bases. I was also working on fixing my login page to work properly. I will be working on my website a lot during this break. 
 

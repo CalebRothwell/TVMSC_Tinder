@@ -21,17 +21,17 @@ if ($username && $password)
       $dbusername = $row['username'];
       $dbpassowrd = $row['password'];
     }
-    if($username==dbusername&&$password)==$dbpassword)
+    if(($username==$dbusername)&&($password==$dbpassword))
     {
       echo "you are logged in!";
 
       @$_SESSION['username'] = $username;
   }
     else
-        echo "Your password is incorrect"
+        echo "Your password is incorrect";
  }
     else
-        die("That user doesn't exist")
+        die("That user doesn't exist");
 }
   else
       die("Please enter a username and passoword!")

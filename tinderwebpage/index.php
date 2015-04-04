@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
 
-      <form action="login.php" method="post"
+      <form action="login.php" method="post">
 
-      Username: <input type="text" name="username"> <p>
-      Password: <input type="password" name="password"> <p>
-                <input type="submit" value= "login">
+      Username: <input type="text" name="username" /> <p>
+      Password: <input type="password" name="password" /> <p>
+                <input type="submit" value= "login" />
 
       </form>
-
+  </body>
 </html>
