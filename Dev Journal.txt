@@ -1,3 +1,7 @@
+Friday April 10 2015
+This week I did not work on my project a lot. So much tests. The elevator pitch was fun and new!
+I worked on the homepage for my website a little bit and I continued debugging. that is the hardest part. I decided that the profile page is going to be pretty simple. I am only going  to ask users for their “cohort” and for their “gender”. They can write a short description about themselves too.  
+
 Friday April 3 2015
 Second Deliverable! Yay! For this deliverable I got about 8/10 I think. I was able to get my host up and running and that was one one the biggest challenges of my project so far. I have also made my homepage, index, dao, and started on the profile page. This is about as far as I wanted to get at this point in time. 
 
