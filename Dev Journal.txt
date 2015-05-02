@@ -1,3 +1,6 @@
+Friday April 24 - Friday May 1 and deliverable 
+I fell as little bit short of my deliverable. My whole site is not up and functioning. There was a little more to it than I first expected when I signed up to do this project. There is php pages that are working and interacting but it is not up at a whole yet. I plan to have it working a looking like a very pretty website by the presentation date. 
+
 Friday April 17 2015 
 INL was to much fun! 
 This week I continued debugging the index and login pages. I think I have them working 100%. I added some html to the profile page and index pages to make them look like actual an actual website. My website is almost complete I just need to have the profile page interact with the login and and home pages. 
