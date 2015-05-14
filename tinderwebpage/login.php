@@ -1,39 +1,31 @@
 <?php
 
-session_start();
+require 'header.php';
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = @$_POST['username'];
+$password = @$_POST['password'];
 
-if ($username && $password)
-{
-  $connect = mysql_connect("localhost", "root", "") or die("Couldn't conect to the database!");
-  mysql_connect_db("login1") or die("Couldn't find database");
-
-  $query = mysql_query("SELECT * FROM users where username= '$username'");
-
-  $numsrows = mysql_num_rows($query);
-
-  if($numsrows!==0)
-  {
-    while($row = mysql_fetch_assoc($query))
-    {
-      $dbusername = $row['username'];
-      $dbpassowrd = $row['password'];
-    }
-    if(($username==$dbusername)&&($password==$dbpassword))
-    {
-      echo "you are logged in!";
-
-      @$_SESSION['username'] = $username;
+if ($username && $password) {
+  if($dao->login($username, $password)) {
+    $session->login($username);
+    echo("You are logged in, $username");
+  } else {
+    echo("Your username or password is wrong");
   }
-    else
-        echo "Your password is incorrect";
- }
-    else
-        die("That user doesn't exist");
 }
-  else
-      die("Please enter a username and passoword!")
+
+?>
+
+<form action="login.php" method="post">
+  <label for="username">Username:</label>
+  <input id="username" type="text" name="username" class="form-control" /> <br/>
+  <label for="password">Password:</label>
+  <input id="password" type="password" name="password" class="form-control" /> <br/>
+  <input type="submit" value= "login" />
+</form>
+
+<?php
+
+require 'footer.php'
 
 ?>

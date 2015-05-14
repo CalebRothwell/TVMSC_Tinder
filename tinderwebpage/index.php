@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-  <body>
+<?php
 
-      <form action="login.php" method="post">
+require 'header.php'
+?>
 
-      Username: <input type="text" name="username" /> <p>
-      Password: <input type="password" name="password" /> <p>
-                <input type="submit" value= "login" />
+<div class="container">
+  <?php
+    if ($session->isLoggedIn()) {
+      $username = $session->getUsername();
 
-      </form>
-  </body>
-</html>
+    <span>Welcome, <?php echo $username; ?></span>
+  <?php } ?>
+</div><!-- /.container -->
+
+<?php
+
+require 'footer.php'
+
+?>
