@@ -7,10 +7,11 @@ require 'header.php'
   <?php
     if ($session->isLoggedIn()) {
       $username = $session->getUsername();
-
-    <span>Welcome, <?php echo $username; ?></span>
+      ?>
+        <span>Welcome, <?php echo $username; ?></span>
   <?php } ?>
-</div><!-- /.container -->
+
+</div>
 
 <?php
 

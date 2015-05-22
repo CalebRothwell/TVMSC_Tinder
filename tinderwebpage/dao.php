@@ -4,10 +4,6 @@ class Dao {
   private $db = "tvmsc_tinder";
   private $user = "root";
   private $pass = "yourpassword";
-  private $fullname = "fullname";
-  private $email = "email";
-  private $profilepicture = "profilepicture";
-  private $description = "description";
 
   public function getConnection () {
     return
@@ -34,25 +30,49 @@ class Dao {
     return false;
   }
 
-  public function saveComment ($comment) {
+  public function createUser($user, $pass, $fullname) {
     $conn = $this->getConnection();
     $saveQuery =
-        "INSERT INTO comment
-        (comment)
+        "INSERT INTO users
+        (username, password, fullname)
         VALUES
-        (:comment)";
+        (:username, :password, :fullname)";
     $q = $conn->prepare($saveQuery);
-    $q->bindParam(":comment", $comment);
-    $q->execute();
+    $q->bindParam(":username", $user);
+    $q->bindParam(":password", $pass);
+    $q->bindParam(":fullname", $fullname);
+    return $q;
   }
 
-  public function getComments () {
+  public function listUsers() {
     $conn = $this->getConnection();
-    return $conn->query("SELECT * FROM comment");
-
-
+    $listQuery =
+        "SELECT username, description FROM users";
+    $q = $conn->prepare($listQuery);
+    $q->execute();
+    return $q->fetchAll();
   }
-  public function createUser($fullname, $email, $user, $pass, $profilepicture, $description) {
+
+  public function getDescription($username) {
+    $conn = $this->getConnection();
+    $getQuery =
+        "SELECT description FROM users WHERE username = (:username)";
+    $q = $conn->prepare($getQuery);
+    $q->bindParam(":username", $username);
+    $q->execute();
+    return $q->fetch()["description"];
+  }
+
+  public function setDescription($username, $description) {
+    $conn = $this->getConnection();
+    $getQuery =
+        "UPDATE users
+        SET description = (:description) WHERE username = (:username)";
+    $q = $conn->prepare($getQuery);
+    $q->bindParam(":description", $description);
+    $q->bindParam(":username", $username);
+    $q->execute();
+
 
   }
 } // end Dao

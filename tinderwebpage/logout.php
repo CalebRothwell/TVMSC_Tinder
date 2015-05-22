@@ -1,13 +1,6 @@
 <?php
-
-require 'header.php';
+require 'session.php';
+$session = new Session();
 $session->logout();
-
-?>
-
-<div class = "container">
-<p> You are logged out </p>
-
-<?php
-require 'footer.php';
+header('Location: http://localhost:8008/about.php');
 ?>
